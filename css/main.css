@@ -5,7 +5,6 @@ body{
 	color:gray;
 	font-size: 12px;
 }
-
 a{
 	text-decoration: none;
 }
@@ -13,10 +12,8 @@ a{
 	margin:0;
 	padding:0;
 }
-.principal{
+.container{
 	width: 65%;
-	margin:0 auto;
-	padding: 0;
 }
 header{
 	padding: 6px 0px;
@@ -40,7 +37,6 @@ header a:hover{
 	background-color: #808080;
 	color:white;
 }
-
 section{
 	background-color: #808080;
 	color:white;
@@ -60,7 +56,6 @@ section span{
 	text-align: justify;
 	font-size: 0.9rem;
 }
-
 .formulario{
 	background-color: rgba(255,255,255,0.3);
 	border-radius: 10px;
@@ -68,7 +63,6 @@ section span{
 	padding: 20px 0px ;
 	float:right;
 }
-
 	.formulario .contacto{
 		width: 200px;
 		height: 25px;
@@ -86,27 +80,22 @@ section span{
 		background-color: rgba(62, 176, 247,0.7);
 		border: 1px solid white;
 	}
-
 footer {
 		padding: 15px 0px;
-		
 }
 footer a{
 	color:blue;
 }
-
-
 @media (max-width: 993px){
 	body{
 		font-size: 15px;
 	}
-	.principal{
-		width: 90%;
-		
+	.container{
+		width: 100%;
 	}
 	.secundario{
 		width: 100%;
-		margin-left: 5%;
+		padding:0% 5%;
 	}
 	.secundario span{
 		font-size: 3.5rem;
@@ -117,8 +106,8 @@ footer a{
 		text-align: left;
 	}
 	.formulario{
-		width: 96%;
-		margin:0 auto;
+		width: 90%;
+		margin:0 5%;
 	}
 	.formulario .contacto{
 		width: 85%;
@@ -135,9 +124,7 @@ footer a{
 		margin-bottom: 10px;
 		font-size: 1rem;
 	}
-	header img{
-		margin-left: 5%;
-	}
+	
 
 	footer p{
 		margin-left: 5%;
@@ -147,6 +134,5 @@ footer a{
 	body{
 		font-size: 12px;
 	}
-
 }
 
