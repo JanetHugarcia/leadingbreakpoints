@@ -3,7 +3,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color:gray;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 a{
@@ -14,16 +14,16 @@ a{
 	padding:0;
 }
 .principal{
-	width: 98%;
+	width: 65%;
 	margin:0 auto;
 	padding: 0;
 }
 header{
-	padding: 10px 0px 15px;
+	padding: 6px 0px;
 	clear:both;
 }
 header img{
-	height: 45px;
+	height: 30px;
 	margin-top: 4px;
 	float:left;
 }
@@ -47,8 +47,12 @@ section{
 	padding-top:4%;
 	padding-bottom: 6%;
 }
+section .col-7,section .col-5{
+	padding: 0;
+	margin:0;
+}
 section span{
-	font-size: 3.4rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 }
 .texto{
@@ -56,18 +60,19 @@ section span{
 	text-align: justify;
 	font-size: 0.9rem;
 }
+
 .formulario{
 	background-color: rgba(255,255,255,0.3);
 	border-radius: 10px;
-	width: 95%;
-	margin:0 auto 40px;
-	padding:15px 0px;
+	width: 220px;
+	padding: 20px 0px ;
+	float:right;
 }
 
 	.formulario .contacto{
-	height: 40px;
-	width: 95%;
-	margin-top: 8px;
+		width: 200px;
+		height: 25px;
+		margin-top: 5px;
 	}
 	.formulario input{
 		padding-left: 10px;
@@ -89,18 +94,35 @@ footer {
 footer a{
 	color:blue;
 }
-footer p{
-		margin-left: 12px;
-}
 
-@media (max-width: 967px){
+
+@media (max-width: 993px){
 	body{
-		font-size: 17px;
+		font-size: 15px;
+	}
+	.principal{
+		width: 90%;
+		
+	}
+	.secundario{
+		width: 100%;
+		margin-left: 5%;
+	}
+	.secundario span{
+		font-size: 3.5rem;
 	}
 	.texto{
 		font-size: 1.1rem;
 		margin-bottom: 10%;
 		text-align: left;
+	}
+	.formulario{
+		width: 96%;
+		margin:0 auto;
+	}
+	.formulario .contacto{
+		width: 85%;
+		height: 40px;
 	}
 	.formulario h2{
 		font-size: 1.4rem;
@@ -116,24 +138,14 @@ footer p{
 	header img{
 		margin-left: 5%;
 	}
-	.secundario{
-		width: 97%;
-	
-		margin-left: 2%;
-	}
+
 	footer p{
 		margin-left: 5%;
 	}
-
 }
-@media (min-width: 968px){
-	.formulario .contacto{
-		width: 260px;
-		height: 35px;	
-	}
-	.formulario{
-		width:300px;
-		margin-left: 28%;
+@media (max-width: 374px){
+	body{
+		font-size: 12px;
 	}
 
 }
